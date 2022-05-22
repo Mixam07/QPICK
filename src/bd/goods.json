@@ -1,0 +1,127 @@
+{
+  "goods": [
+    {
+      "name": "Чехлы",
+      "isUnderSpecies": true,
+      "items": [
+        {
+          "logoSrc": "img/goods/cases/glass/main-image.png",
+          "name": "Стеклянные"
+        },
+        {
+          "logoSrc": "img/goods/cases/silicone/main-image.png",
+          "name": "Силиконовые"
+        },
+        {
+          "logoSrc": "img/goods/cases/leather/main-image.png",
+          "name": "Кожаные"
+        },
+        {
+          "logoSrc": "img/goods/cases/plastic/main-image.png",
+          "name": "Пластмассовые"
+        }
+      ]
+    },
+    {
+      "name": "Наушники",
+      "items": [
+        {
+          "logoSrc": "img/goods/headphones/Apple_BYZ_S852I.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "Apple BYZ S852I",
+          "price": 2927,
+          "lastPrice": 3527
+        },
+        {
+          "logoSrc": "img/goods/headphones/Apple_EarPods_1.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.5,
+          "name": "Apple EarPods",
+          "price": 2327
+        },
+        {
+          "logoSrc": "img/goods/headphones/Apple_EarPods_2.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.5,
+          "name": "Apple EarPods",
+          "price": 2327
+        },
+        {
+          "logoSrc": "img/goods/headphones/Apple_BYZ_S852I.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "Apple BYZ S852I",
+          "price": 2927,
+          "lastPrice": 3527
+        },
+        {
+          "logoSrc": "img/goods/headphones/Apple_EarPods_1.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.5,
+          "name": "Apple EarPods",
+          "price": 2327
+        },
+        {
+          "logoSrc": "img/goods/headphones/Apple_EarPods_2.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.5,
+          "name": "Apple EarPods",
+          "price": 2327
+        }
+      ]
+    },
+    {
+      "name": "Беспроводные наушники",
+      "items": [
+        {
+          "logoSrc": "img/goods/wireless-headphones/Apple_AirPods.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "Apple AirPods",
+          "price": 9527
+        },
+        {
+          "logoSrc": "img/goods/wireless-headphones/GERLAX_GH-04.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "GERLAX GH-04",
+          "price": 6527
+        },
+        {
+          "logoSrc": "img/goods/wireless-headphones/BOROFONE_BO4.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "BOROFONE BO4",
+          "price": 7527
+        }
+      ]
+    },
+    {
+      "name": "Автодержатель",
+      "items": [
+        {
+          "logoSrc": "img/goods/car-holder/BOROFONE_BH32.png",
+          "logoFirmSrc": "icons/firms-logo/Lonio.svg",
+          "mark": 4.7,
+          "name": "BOROFONE BH32",
+          "price": 2927,
+          "lastPrice": 3527
+        }
+      ]
+    },
+    {
+      "name": "Телефон",
+      "items": [
+        {
+          "logoSrc": "img/goods/phone/iPhone_12_6.1.png",
+          "logoFirmSrc": "icons/firms-logo/Apple.svg",
+          "mark": 4.7,
+          "name": "iPhone 12 6.1",
+          "price": 2927,
+          "lastPrice": 3527
+        }
+      ]
+    }
+  ]
+}

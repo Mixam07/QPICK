@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat:wght@400;500;600;700&display=swap');
+@import "base/function";
+@import "base/mixins";
+@import "base/nullstyle";
+@import "base/variables";
+
+.container{
+  max-width: rem(1130);
+  padding: 0 rem(10);
+  width: 100%;
+  margin: 0 auto;
+}
+
+*{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: rem(20);
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background: #EAEAEA;
+}
+
+main{
+  height: 100%;
+}
+
+@import "blocks/footer";
+@import "blocks/header";
