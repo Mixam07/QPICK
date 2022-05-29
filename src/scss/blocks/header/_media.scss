@@ -1,0 +1,36 @@
+@media (max-width: rem(1200)){
+  .header{
+    &__nav{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: rem(992)){
+  .header{
+    &__languages{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: rem(762)){
+  .header{
+    .btn{
+      display: none;
+    }
+    &__cart{
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: rem(576)){
+  .header{
+    &__logo,
+    &__models,
+    &__heart{
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.title{
+  &_advertisement{
+    font-size: rem(30);
+    line-height: em(37, 30);
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: rem(65) rem(470) rem(65) rem(100);
+  }
+  &_goods{
+    font-size: rem(20);
+    line-height: em(24, 20);
+    color: #838383;
+    margin-bottom: rem(20);
+  }
+}

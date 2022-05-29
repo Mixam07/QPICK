@@ -1,0 +1,7 @@
+@mixin img($height) {
+  height: $height;
+  display: block;
+  img{
+    height: 100%;
+  }
+}

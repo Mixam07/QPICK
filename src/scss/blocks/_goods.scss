@@ -1,0 +1,100 @@
+.goods{
+  &__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: rem(30);
+  }
+  &__item{
+    margin-bottom: rem(50);
+  }
+  &__card-kind{
+    background: #fff;
+    box-shadow: 0 0 rem(20) rgba(0, 0, 0, 0.1);
+    border-radius: rem(30);
+    padding: rem(25) rem(10) rem(50) rem(10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__card{
+    background: #FFFFFF;
+    box-shadow: 0 0 rem(20) rgba(0, 0, 0, 0.1);
+    border-radius: rem(30);
+    padding: rem(15) rem(20) rem(30) rem(20);
+    position: relative;
+    .heart{
+      display: block;
+    }
+    .painted{
+      display: none;
+    }
+  }
+  .favorite{
+    .heart{
+      display: none;
+    }
+    .painted{
+      display: block;
+    }
+  }
+  &__hearts{
+    position: absolute;
+    top: rem(15);
+    left: rem(15);
+  }
+  &__header{
+    height: rem(250);
+    width: 100%;
+    margin-bottom: rem(50);
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__body{
+    margin-top: rem(20);
+    display: flex;
+    justify-content: space-between;
+    .title{
+      text-align: start;
+    }
+  }
+  &__star{
+    margin-top: rem(25);
+    display: flex;
+  }
+  &__number{
+    color: #838383;
+  }
+  &__cost,
+  &__last-price{
+    color: #FFA542;
+  }
+  &__last-price{
+    font-size: rem(13);
+    line-height: em(16, 13);
+    text-decoration-line: line-through;
+    text-align: center;
+  }
+  &__discount{
+    display: none;
+    color: #DF6464;
+    font-size: rem(16);
+    line-height: em(20, 16);
+  }
+  .discount{
+    .goods__discount{
+      display: block;
+    }
+    .goods__cost,
+    .goods__last-price{
+      color: #DF6464;
+    }
+  }
+  &__firm{
+    position: absolute;
+    top: rem(20);
+    right: rem(20);
+  }
+}

@@ -1,18 +1,11 @@
 .footer{
   &__wrapper{
     background: #fff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 0 rem(20) rgba(0, 0, 0, 0.1);
+    border-radius: rem(30) rem(30) 0 0;
     padding: rem(30);
     display: flex;
     justify-content: space-between;
-  }
-  &__logo{
-    display: block;
-    height: rem(30);
-    img{
-      height: 100%;
-    }
   }
   &__nav,
   &__inf{
@@ -23,8 +16,6 @@
   &__condition{
     margin: rem(5) 0;
     font-weight: 400;
-    font-size: rem(17);
-    line-height: rem(21);
   }
   &__languages{
     margin-top: rem(35);
@@ -44,10 +35,6 @@
   &__item{
     margin-right: rem(20);
     display: block;
-    height: rem(30);
-    img{
-      height: 100%;
-    }
     &:last-child{
       margin-right: 0;
     }

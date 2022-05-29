@@ -1,0 +1,23 @@
+@media (max-width: rem(1200)){
+  .container{
+    max-width: rem(940);
+  }
+}
+
+@media (max-width: rem(992)){
+  .container{
+    max-width: rem(720);
+  }
+}
+
+@media (max-width: rem(762)){
+  .container{
+    max-width: rem(540);
+  }
+}
+
+@media (max-width: rem(576)){
+  .container{
+    max-width: 100%;
+  }
+}

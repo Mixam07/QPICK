@@ -53,7 +53,8 @@
           "mark": 4.7,
           "name": "Apple BYZ S852I",
           "price": 2927,
-          "lastPrice": 3527
+          "lastPrice": 3527,
+          "discountPercentage": "-20%"
         },
         {
           "logoSrc": "img/goods/headphones/Apple_EarPods_1.png",

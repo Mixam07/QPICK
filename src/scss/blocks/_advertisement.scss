@@ -1,0 +1,17 @@
+.advertisement{
+  margin-bottom: rem(50);
+  &__main{
+    display: flex;
+    background: #101010;
+    box-shadow: 0 0 rem(20) rgba(0, 0, 0, 0.1);
+    border-radius: rem(30);
+    position: relative;
+    min-height: rem(200);
+    overflow: hidden;
+  }
+  &__img{
+    position: absolute;
+    bottom: rem(-125);
+    right: rem(150);
+  }
+}

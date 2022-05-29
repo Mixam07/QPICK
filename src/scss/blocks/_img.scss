@@ -1,0 +1,23 @@
+.img{
+  &_7_5{
+    @include img(rem(7.5))
+  }
+  &_15{
+    @include img(rem(15))
+  }
+  &_20{
+    @include img(rem(20))
+  }
+  &_25{
+    @include img(rem(25))
+  }
+  &_30{
+    @include img(rem(30))
+  }
+  &_290{
+    @include img(rem(290))
+  }
+  &_350{
+    @include img(rem(350))
+  }
+}

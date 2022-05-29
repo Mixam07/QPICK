@@ -1,0 +1,86 @@
+.header{
+  padding: rem(15) 0;
+  margin-bottom: rem(25);
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__models{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__text{
+    font-weight: 500;
+    font-size: rem(15);
+    line-height: em(18, 15);
+    margin-left: rem(15);
+    color: #101010;
+  }
+  &__arrow{
+    margin-left: rem(5);
+  }
+  &__other{
+    align-items: center;
+    display: flex;
+  }
+  &__phone{
+    margin-right: rem(15);
+  }
+  &__nav{
+    display: flex;
+  }
+  &__item{
+    display: block;
+    margin-right: rem(30);
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__languages{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  &__heart,
+  &__cart{
+    position: relative;
+  }
+  &__count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: rem(25);
+    height: rem(25);
+    background: red;
+    transform: translate(50%, -50%);
+    width: rem(17.5);
+    height: rem(17.5);
+    background: #FFA542;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: rem(15);
+    line-height: em(18, 15);
+    color: #FFFFFF;
+  }
+  &__name{
+    margin-left: rem(5);
+    font-weight: 500;
+    font-size: rem(15);
+    line-height: em(18, 15);
+    color: #838383;
+  }
+  &__other>div {
+    margin-right: rem(25);
+    &:last-child{
+      height: 150px;
+    }
+  }
+  &__phone{
+    margin-right: rem(15);
+  }
+}
